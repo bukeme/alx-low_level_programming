@@ -8,6 +8,7 @@
 int main(void)
 {
 	char lower_alpha = 'a';
+
 	while (lower_alpha <= 'z')
 	{
 		if (lower_alpha != 'e' && lower_alpha != 'q')
@@ -16,6 +17,7 @@ int main(void)
 		}
 		lower_alpha++;
 	}
+
 	putchar('\n');
 	return (0);
 }

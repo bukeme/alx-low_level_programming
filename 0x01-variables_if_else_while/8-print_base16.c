@@ -9,12 +9,13 @@ int main(void)
 {
 	int digit = 0;
 	char lower_alpha = 'a';
-	while(digit < 10)
+
+	while (digit < 10)
 	{
-		putchar(digit +'0');
+		putchar(digit + '0');
 		digit++;
 	}
-	while(lower_alpha <= 'f')
+	while (lower_alpha <= 'f')
 	{
 		putchar(lower_alpha);
 		lower_alpha++;
