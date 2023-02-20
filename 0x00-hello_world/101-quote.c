@@ -5,17 +5,17 @@
 
 #include <unistd.h>
 
-/*
- *Main function
+/**
+ *main -> prints a sentence
  *
- *Print description using write
- *
- *return 1
+ *Return: 0 on success
  */
 
 int main(void)
 {
-	char *message = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	char *message = "and that piece of art is useful"
+			"\" - Dora Korpar, 2015-10-19\n";
+
 	write(2, message, 59);
 	return (1);
 }
