@@ -5,10 +5,10 @@
 
 #include <stdio.h>
 
-/*
- *Main function
- Prints out description Programming is like building a multilingual puzzle
- Always return 0
+/**
+ * main -> prints out description
+ *
+ * Return: 0 on success
  */
 
 int main(void)
