@@ -1,3 +1,5 @@
+int _putchar(char c);
+
 /**
  * printDesc -> prints _putchar
  */
@@ -14,7 +16,7 @@ void print_alphabet(void)
 
     while (alpha <= 'z')
     {
-        _putchar(alpha);
+        putchar(alpha);
         alpha++;
     }
     putchar('\n');
