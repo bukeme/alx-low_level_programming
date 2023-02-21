@@ -1,5 +1,3 @@
-int _putchar(char c);
-
 /**
  * printDesc -> prints _putchar
  */
