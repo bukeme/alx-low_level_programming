@@ -1,10 +1,5 @@
 #include <stdio.h>
-/**
- * printDesc -> prints _putchar
- */
-void printDesc() {
-	printf("_putchar\n");
-}
+#include "main.h"
 
 /**
  * main -> calls printDesc function
