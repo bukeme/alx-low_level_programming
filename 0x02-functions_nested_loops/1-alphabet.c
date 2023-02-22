@@ -5,8 +5,14 @@
  * main -> calls print_alphabet
  * Return: 0 on success
  */
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+	char alpha = 'a';
+
+    while (alpha <= 'z')
+    {
+        _putchar(alpha);
+        alpha++;
+    }
+    _putchar('\n');
 }
