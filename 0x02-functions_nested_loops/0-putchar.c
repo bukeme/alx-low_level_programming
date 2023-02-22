@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -8,6 +7,13 @@
  */
 int main(void)
 {
-	printDesc();
-	return (0);
+	char msg[] = "_putchar";
+
+    while (int i = 0; i < 8; i++)
+    {
+        _putchar(msg[i]);
+        i++;
+    }
+    _putchar('\n');
+    return (0);
 }

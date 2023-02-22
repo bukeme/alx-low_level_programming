@@ -1,11 +1,4 @@
-/**
- * printDesc -> prints _putchar
- */
-void printDesc() {
-	printf("_putchar\n");
-}
+#include <stdio.h>
 
-/**
- * print_alphabet -> prints alphabets
- */
+int _putchar(char c);
 void print_alphabet(void);
