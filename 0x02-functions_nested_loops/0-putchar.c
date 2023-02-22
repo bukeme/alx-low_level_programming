@@ -8,12 +8,13 @@
 int main(void)
 {
 	char msg[] = "_putchar";
+	int i;
 
-    while (int i = 0; i < 8; i++)
-    {
-        _putchar(msg[i]);
-        i++;
-    }
-    _putchar('\n');
-    return (0);
+	while (i < 8)
+	{
+        	putchar(msg[i]);
+        	i++;
+    	}
+	_putchar('\n');
+	return (0);
 }
