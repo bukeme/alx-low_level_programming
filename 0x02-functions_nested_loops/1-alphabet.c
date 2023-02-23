@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main -> calls print_alphabet
+ * print_alphabet -> calls print_alphabet
  * Return: 0 on success
  */
 void print_alphabet(void)
@@ -10,8 +10,8 @@ void print_alphabet(void)
 
 	while (alpha <= 'z')
 	{
-        	_putchar(alpha);
-        	alpha++;
+		_putchar(alpha);
+		alpha++;
 	}
 	_putchar('\n');
 }
