@@ -45,6 +45,5 @@ void print_number(int n)
 		_putchar(((n / power(10, exp)) % 10) + '0');
 		exp--;
 	}
-	_putchar('\n');
 }
 
