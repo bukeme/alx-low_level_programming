@@ -27,7 +27,7 @@ void print_array(int *a, int n)
 		if (a[i] < 0)
 			_putchar('-');
 
-		num = a[i] < 0 ? a[i] * - 1 : a[i];
+		num = a[i] < 0 ? a[i] * -1 : a[i];
 		print_number(num);
 
 		if (i != n - 1)
