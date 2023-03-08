@@ -1,12 +1,27 @@
 #include "main.h"
 
-int i = 0;
+/**
+ * _put_recursion -> prints string
+ * @s: string
+ * @i: index
+ */
 
-void _puts_recursion(char *s)
+void _put_recursion(char *s, int i)
 {
 	_putchar(s[i]);
 	i++;
 	if (s[i] != '\0')
-		_puts_recursion(s);
+		_put_recursion(s, i);
 }
 
+/**
+ * _puts_recursion -> calls _put_recursion
+ * @s: string
+ */
+
+void _puts_recursion(char *s)
+{
+	int i = 0;
+
+	_put_recursion(s, i);
+}
