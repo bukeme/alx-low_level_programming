@@ -15,7 +15,8 @@ int is_prime(int num, int div)
 	}
 	else if (div < num / 2)
 	{
-		return (is_prime(num, div++));
+		div++;
+		return (is_prime(num, div));
 	}
 	if (div >= num / 2)
 		return (1);
