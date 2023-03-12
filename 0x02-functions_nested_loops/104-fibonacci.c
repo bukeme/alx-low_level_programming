@@ -7,14 +7,14 @@
 
 int main(void)
 {
-	unsigned long long int a = 1, b = 2, tmp;
+	unsigned long a = 1, b = 2, tmp;
 	int count = 1;
 
 	while (count <= 98)
 	{
 		if (count != 1)
 			printf(", ");
-		printf("%llu", a);
+		printf("%lu", a);
 		tmp = a;
 		a = b;
 		b = a + tmp;
