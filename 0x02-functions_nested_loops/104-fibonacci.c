@@ -20,5 +20,6 @@ int main(void)
 		b = a + tmp;
 		count++;
 	}
+	printf("\n");
 	return (0);
 }
