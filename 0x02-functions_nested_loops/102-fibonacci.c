@@ -12,13 +12,13 @@ int main(void)
 
 	while (count <= 50)
 	{
+		if (count != 1)
+			printf(", ");
 		printf("%lu", a);
 		tmp = a;
 		a = b;
 		b = a + tmp;
 		count++;
-		if (count < 50)
-			printf(", ");
 	}
 	return (0);
 }
