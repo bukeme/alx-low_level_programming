@@ -7,12 +7,12 @@
 
 int main(void)
 {
-	long long int a = 1, b = 2, count = 1;
-	long long int tmp;
+	unsigned long int a = 1, b = 2, count = 1;
+	unsigned long int tmp;
 
 	while (count <= 50)
 	{
-		printf("%lld", a);
+		printf("%lu", a);
 		tmp = a;
 		a = b;
 		b = a + tmp;
